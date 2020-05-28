@@ -6,7 +6,7 @@ image: fiducialforcesensor.jpg
 categories: research
 authors: "<strong>Rui Ouyang</strong>"
 venue: "IEEE International Conference on Robotics and Automation"
-site: https://sites.google.com/view/fiducialforcesensor
+website: https://sites.google.com/view/fiducialforcesensor
 arxiv: https://orangenarwhals.com/public/main.pdf 
 slides: https://docs.google.com/presentation/d/e/2PACX-1vR3MOrG-1h1OyTzDd7CDHQGD1FxvV2Hk_LyMmVhwhZrwcj5Y2xou6rVTQCQLCHDgoXni0E81xfimGBM/embed? 
 ---
