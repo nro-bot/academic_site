@@ -1,3 +1,10 @@
+# notes
+
+28 May 2020: This site hosted at nrobot.dev
+
+Forked from 
+https://github.com/leonidk/new_website which is viewable at https://leonidk.com/
+
 # updated website
 
 This repo is built on a fork of **Jekyll Now** from [this repository](https://github.com/barryclark/jekyll-now). **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
