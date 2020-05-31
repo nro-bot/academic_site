@@ -4,7 +4,7 @@ title:  "Low-Cost Fiducial-Based 6-Axis Force-Torque Sensor"
 date:   2020-05-31 22:21:59 +00:00
 image: fiducialforcesensor.jpg
 categories: research
-authors: "<strong>Rui Ouyang</strong>"
+authors: "<strong>Rui Ouyang</strong>", Robert Howe
 venue: "IEEE International Conference on Robotics and Automation"
 website: https://sites.google.com/view/fiducialforcesensor
 arxiv: https://orangenarwhals.com/public/main.pdf 
