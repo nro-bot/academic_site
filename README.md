@@ -15,6 +15,17 @@ Configuration file: /home/jade/Desktop/cat/academic_site/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
+If run into permissions errors on gem install  --
+Make sure in `.bashrc`
+```
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+```
+
+Then
+```
+source ~/.bashrc
+```
 
 # notes
 
