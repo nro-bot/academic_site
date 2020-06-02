@@ -1,3 +1,21 @@
+# quickstart
+
+```
+$ gem install jekyll bundler
+
+$ jekyll serve
+Configuration file: /home/jade/Desktop/cat/academic_site/_config.yml
+            Source: /home/jade/Desktop/cat/academic_site
+       Destination: /home/jade/Desktop/cat/academic_site/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.225 seconds.
+ Auto-regeneration: enabled for '/home/jade/Desktop/cat/academic_site'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+```
+
+
 # notes
 
 28 May 2020: This site hosted at nrobot.dev
