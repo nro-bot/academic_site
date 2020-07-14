@@ -5,6 +5,8 @@ $ sudo apt-get install ruby-full build-essential zlib1g-dev
 
 $ gem install jekyll bundler github-pages
 
+$ jekyll build
+
 $ jekyll serve
 Configuration file: /home/jade/Desktop/cat/academic_site/_config.yml
             Source: /home/jade/Desktop/cat/academic_site

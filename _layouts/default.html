@@ -127,6 +127,9 @@
               {% if post.website %}
               <a href="{{post.website}}">website</a>
               {% endif %}
+              {% if post.pdf%}
+              <a href="{{post.pdf}}">pdf</a>
+              {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
@@ -149,6 +152,18 @@
                   href="https://orangenarwhals.com">orangenarwhals</a>. 
 
               </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Activism</h2>
             </td>
           </tr>
         </table>
@@ -198,6 +213,9 @@
               {% endif %}
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.pdf%}
+              <a href="{{post.pdf}}">pdf</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
