@@ -103,3 +103,15 @@ span.highlight {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
+table {
+    width: 100%;
+    border:0px;
+    //border:10px;
+    //border-style: dotted;
+    border-spacing:0px;
+    border-collapse:separate;
+    margin-right:auto;
+    margin-left:auto;
+//style=
+
+}
