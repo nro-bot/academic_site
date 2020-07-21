@@ -7,7 +7,7 @@ image: change_shutdownGA.jpg
 categories: Activism 
 authors: "<strong>Rui Ouyang</strong>"
 website: "https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga"
-pdf: "/pdfs/ajc_shutdown.pdf"
+pdf: "/pdfs/change_petition.png"
 ---
 
-Ran a #shutdownGA campaign. Started [petition](https://www.change.org/p/tell-governor-kemp-shut-down-georgia-today-save-lives-shutdownga) that garnered [80k+ signatures](/pdfs/shutdown_petition_signatures_28Mar.pdf) in 2 weeks, sent those the governor and federal reps. Also made GA-specific graphs and wrote [emails](/pdfs/shutdown_email.pdf) to dozens of state legislators mayors, and created [website](https://sites.google.com/view/shutdownga/) to coordinate efforts. 
+I created a petition to shut down my home state (Georgia) and got [80k+ signatures](/pdfs/shutdown_petition_signatures_28Mar.pdf) in 2 weeks. I sent it to my governor and federal representatives. I also did GA-specific hospital capacity [analysis](/pdfs/shutdown_email.pdf) and emailed it to over >200 state legislators and city mayors. I made a [website](https://sites.google.com/view/shutdownga/) to coordinate volunteers. 
