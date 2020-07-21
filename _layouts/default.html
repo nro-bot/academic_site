@@ -55,8 +55,6 @@
                                 I grew up in Georgia, USA.
                                 </p>
 
-
-
                                 <p>This website focuses on my academic work; for other work, please see my <a 
                                         href="https://nancyouyang.com">engineering
                                         portfolio</a>.                         My academic pseudonym (to keep citations consistent)
@@ -94,17 +92,18 @@
                         {% for cat in post.categories %}
                         {% if cat == 'research' %}
                         <tr>
-                            <td style="width:25%;">
-                                <img src="images/thumbs/{{post.image}}" alt="project image" class="thumb">
+                            <td style="width:25%; min-width:120px">
+                                <img src="images/thumbs/{{post.image}}"
+                                alt="project image" class="thumb"/>
                             </td>
-                            <td class="inner">
+                            <td style="width:75%;">
                                 <h3>{{post.title}}</h3>
                                 <br>
                                 {{post.authors}}
-
                                 <br>
                                 <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
                                 <br>
+
                                 {% include loop_posts.html %}
                             </td>
                         </tr>
@@ -140,7 +139,7 @@
                         <tr>
                             <td style="width:25%; min-width:120px">
                                 <img src="images/thumbs/{{post.image}}" alt="project image"
-                                                                        class="thumb" />
+                                                                        class="thumb"/>
                             </td>
                             <td style="width:75%;">
                                 <h3>{{post.title}}</h3>
@@ -148,6 +147,7 @@
                                 {{ post.date | date: "%Y-%m-%d" }}
                                 <br>
                                 {{post.authors}}
+                                <br>
 
                                 {% include loop_posts.html %}
                             </td>
@@ -185,7 +185,6 @@
                                 <h3>{{post.title}}</h3>
                                 <br>
                                 <!--<em>{{post.categories}} {{post.course}}</em>-->
-                                <!--<br>-->
                                 {{ post.date | date: "%Y-%m-%d" }}
                                 <br>
                                 {% include loop_posts.html %}

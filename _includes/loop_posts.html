@@ -14,13 +14,11 @@
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a>
+              <a href="{{post.website}}">website</a> /
               {% endif %}
               {% if post.pdf%}
-              <a href="{{post.pdf}}">pdf</a>
+              <a href="{{post.pdf}}">pdf</a> /
               {% endif %}
-              <p></p>
-              {{ post.excerpt }}
 
               {% if post.website2 %}
               <a href="{{post.website2}}">website2</a> /
@@ -32,5 +30,9 @@
               <a href="{{post.patent}}">patent</a> /
               {% endif %}
               {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
+              <a href="{{post.video2}}">video #2</a> 
               {% endif %}
+              <p>
+              {{ post.excerpt }}
+              </p>
+
