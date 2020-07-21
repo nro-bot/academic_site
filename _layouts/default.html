@@ -18,13 +18,13 @@
 
 
 <body>
-     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <table class="default" style="max-width:800px">
     <tr style="padding:0px">
       <td style="padding:0px">
         <table>
         <table class="default">
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
+            <td style="width:60%">
               <h1>
                 Rui Ouyang 
               </h1>
@@ -72,8 +72,8 @@
                 <a href="https://www.linkedin.com/in/nouyang"> LinkedIn </a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="border-radius:50%;width:100%;max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
+            <td style="width:40%;max-width:40%">
+              <img style="border-radius:50%; width:100%; max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
             </td>
           </tr>
         </table>
@@ -81,7 +81,7 @@
         <table>
         <table class="default">
           <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
+            <td style="width:100%;">
               <h2>Research</h2>
               <p>
                 My research thus far has been in computer vision and robotic perception.
@@ -90,16 +90,14 @@
           </tr>
         </table>
         <table>
-
-
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="images/thumbs/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+               <td style="width:75%;">
+              <img src="images/thumbs/{{post.image}}" alt="project image" class="thumb">
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td class="inner">
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
@@ -118,30 +116,30 @@
         <br>
         <br>
 
-        <table class="default>
+        <table class="default">
           <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
+            <td style="width:100%;">
               <h2>Other Projects</h2>
               <p> Please see <a href="https://nancyouyang.com">
                   my engineering portfolio</a> for more details on my other
               projects (this includes coursework, side projects and unpublished
               research work).  I also keep an informal blog at <a
                   href="https://orangenarwhals.com">orangenarwhals</a>. 
-
               </p>
             </td>
+          </tr>
         </table>
 
         <table class="default">
-          </tr>
           {% for post in site.posts %}
           {% for cat in post.categries %}
           {% if cat != 'research' and cat != 'Activism' and cat != 'Writing' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="images/thumbs/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            <td style="width:25%; min-width:120px">
+              <img src="images/thumbs/{{post.image}}" alt="project image"
+                        class="thumb" />
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td style="width:75%;">
               <h3>{{post.title}}</h3>
               <br>
               {{ post.date | date: "%Y-%m-%d" }}
@@ -159,9 +157,10 @@
         <br>
         <br>
         <br>
+
         <table class="default">
           <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
+            <td style="width:100%;">
               <h2>Activism</h2>
               <p> I am also an activist and a feminist. </p>
             </td>
@@ -173,10 +172,11 @@
           {% for cat in post.categories %}
           {% if cat == 'Activism' or cat =='Writing' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/images/thumbs/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            <td style="width:25%; min-width:120px">
+              <img src="/images/thumbs/{{post.image}}" alt="project image"
+                        class="thumb"/>
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td style="width:75%;">
               <h3>{{post.title}}</h3>
               <br>
               <!--<em>{{post.categories}} {{post.course}}</em>-->

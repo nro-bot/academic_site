@@ -103,7 +103,7 @@ span.highlight {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
-table {
+table.default {
     width: 100%;
     border:0px;
     //border:10px;
@@ -115,3 +115,20 @@ table {
 //style=
 
 }
+
+td {
+    padding:2.5%;
+    vertical-align:middle;
+}
+
+
+td.inner{
+    width:75%;
+}
+
+img.thumb {
+    width: auto;
+    height: auto;
+    max-width:100%;
+}
+
