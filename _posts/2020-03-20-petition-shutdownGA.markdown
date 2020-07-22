@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "#ShutdownGA Campaign "
-date:   2020-03-20 22:21:59 +00:00
 image: shutdownGA.jpg
 image: change_shutdownGA.jpg
 categories: Activism 

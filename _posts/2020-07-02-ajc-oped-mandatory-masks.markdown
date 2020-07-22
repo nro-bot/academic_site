@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Opinion: Wearing masks must become mandatory"
-date:   2020-07-02 22:21:59 +00:00
 image: ajc_mandatory_masks.jpg
 categories: Writing 
 authors: "<strong>Rui Ouyang</strong>"
