@@ -2,7 +2,7 @@
 layout: post
 title:  "6.832: Inertia Wheel Inverted Pendulum"
 categories: Other 
-authors: "<strong>Rui Ouyang</strong>, Ondrej Biza, TBA"
+authors: "Rui Ouyang, Ashwin Krishna"
 venue: MIT Underactuated Robotics
 image: pend.jpg
 report: pdfs/class_underactuated.pdf

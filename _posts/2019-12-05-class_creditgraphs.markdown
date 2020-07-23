@@ -4,7 +4,7 @@ title:  "CS223: Efficient Algorithms for Detecting & Classifying Credit
 Communities"
 image: creditgraphs.png
 categories: Other 
-authors: "<strong>Rui Ouyang</strong>, Juspreet Singh Sandhu, Mark York"
+authors: "Rui Ouyang, Juspreet Singh Sandhu, Mark York"
 venue: Harvard Random Processes and Algorithms
 report: pdfs/class_creditgraphs.pdf
 code: https://github.com/nouyang/cs223_creditgraphs
