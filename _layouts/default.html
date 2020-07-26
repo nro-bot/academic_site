@@ -85,7 +85,9 @@
                                 <h2>Research</h2>
                                 <!--******************************************************-->
                                 <p>
-                                My research thus far has been in computer vision and robotic perception.
+                                My research has been in computer vision and
+                                robotic perception. I am also interested 
+                                in the intersection of engineering and activism.
                                 </p>
                             </td>
                         </tr>
@@ -102,6 +104,45 @@
                     <br>
                     <br>
                     <br>
+
+                    <table class="default">
+                        <tr>
+                            <td style="width:100%;">
+                                <!--******************************************************-->
+                                <h2>Activism</h2>
+                                <!--******************************************************-->
+                                <p> I am also an activist and a feminist. </p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="default">
+                        {% for post in site.posts %}
+                        {% for cat in post.categories %}
+                        {% if cat == 'Activism' or cat =='Writing' %}
+                                {% include loop_posts.html %}
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                    </table>
+
+                    <br>
+                    <br>
+                    <br>
+                    <table class="default">
+                        <tr>
+                            <td style="width:100%;">
+                                <!--******************************************************-->
+                                <h2>Awards</h2>
+                                <!--******************************************************-->
+                                <p>
+                                I received the <a href="https://www.womentechmakers.com/">Google Women Techmakers Scholarship</a>
+                                in 2017. 
+                                </p<
+                            </td>
+                        </tr>
+                    </table>
+
 
 
                     <table class="default">
@@ -129,30 +170,6 @@
                         {% endfor %}
                     </table>
 
-                    <br>
-                    <br>
-                    <br>
-
-                    <table class="default">
-                        <tr>
-                            <td style="width:100%;">
-                                <!--******************************************************-->
-                                <h2>Activism</h2>
-                                <!--******************************************************-->
-                                <p> I am also an activist and a feminist. </p>
-                            </td>
-                        </tr>
-                    </table>
-
-                    <table class="default">
-                        {% for post in site.posts %}
-                        {% for cat in post.categories %}
-                        {% if cat == 'Activism' or cat =='Writing' %}
-                                {% include loop_posts.html %}
-                        {% endif %}
-                        {% endfor %}
-                        {% endfor %}
-                    </table>
 
                     <table class="default">
                         <tr>
