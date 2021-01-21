@@ -8,4 +8,4 @@ website: "https://www.ajc.com/news/opinion/opinion-wearing-masks-must-become-man
 pdf: "/pdfs/ajc_masks.pdf"
 ---
 
-Wrote op-ed about mandating masks in my home state, Georgia. Written in mid-May, the article was published in the Atlanta Journal Constitution in July when rising cases caused dozens of states to mandate masks. Public education is sorely needed: two weeks later, our Governor Kemp sued Atlanta Mayor Bottoms to end her city-wide mask mandate.
+Wrote op-ed about mandating masks in my home state, Georgia. Written in mid-May, the article was published in the Atlanta Journal Constitution in July when rising cases caused dozens of states to mandate masks. Two weeks later, our State Governor Kemp sued Atlanta City Mayor Bottoms to end her city-wide mask mandate.
