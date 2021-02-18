@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "To be announced"
+title: "Digger Finger: GelSight Tactile Sensor for Object Identification Inside Granular Media"
 image: gel.png 
 categories: research
-authors: "Radhen Patel, <strong>Rui Ouyang</strong>, Branden Romero, Achu Wilson, Edward Adelson"
+authors: "Radhen Patel, <strong>Rui Ouyang</strong>, Branden Romero, Edward Adelson"
 venue: "Accepted, International Symposium on Experimental Robotics, 2020"
 website: https://sites.google.com/view/diggerfinger/
-report: pdfs/ISER2020_fullpaper_final_v26Jan2021.pdf
+report: pdfs/DiggerFinger_ISER2020_fullpaper_final_v15Dec2020.pdf
 slides: 
 ---
 
