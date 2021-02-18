@@ -6,7 +6,7 @@ categories: research
 authors: "Radhen Patel, <strong>Rui Ouyang</strong>, Branden Romero, Achu Wilson, Edward Adelson"
 venue: "Accepted, International Symposium on Experimental Robotics, 2020"
 website: https://sites.google.com/view/diggerfinger/
-arxiv: 
+report: pdfs/ISER2020_fullpaper_final_v26Jan2021.pdf
 slides: 
 ---
 
