@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "To be announced"
-image: tba_gel.jpg 
+image: gel.png 
 categories: research
 authors: "Radhen Patel, <strong>Rui Ouyang</strong>, Branden Romero, Achu Wilson, Edward Adelson"
 venue: "Accepted, International Symposium on Experimental Robotics, 2020"
