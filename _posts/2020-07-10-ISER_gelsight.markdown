@@ -10,4 +10,11 @@ report: pdfs/DiggerFinger_ISER2020_fullpaper_final_v15Dec2020.pdf
 slides: 
 ---
 
-Work on a novel [Gelsight](http://people.csail.mit.edu/kimo/gelsight/) design customized to a specific application. I manually labelled images from the novel application, then trained a [YOLO-OBB](https://github.com/heshameraqi/yolo-obb-roadway-features-OLD/) model and analyzed extrapolation to similar situations, as well as failure cases. For legal reasons the paper is not public currently.
+Work on a novel [Gelsight](http://people.csail.mit.edu/kimo/gelsight/) design
+customized to a specific application. Gelsights are visual-tactile sensors used
+to give robots a sense of touch. The Digger Finger is a miniaturezed,
+custom-shaped sensor specialized for digging in sand and other granular media,
+which has rarely been explored with robotic touch before. I helped prototype the
+physical design as well as the initial shape detection and annotation algorithm which used
+a [YOLO-OBB](https://github.com/heshameraqi/yolo-obb-roadway-features-OLD/) model.
+
