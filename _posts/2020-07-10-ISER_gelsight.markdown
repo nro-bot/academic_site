@@ -4,9 +4,9 @@ title: "Digger Finger: GelSight Tactile Sensor for Object Identification Inside 
 image: gel.png 
 categories: research
 authors: "Radhen Patel, <strong>Rui Ouyang</strong>, Branden Romero, Edward Adelson"
-venue: "Accepted, International Symposium on Experimental Robotics, 2020"
+venue: "International Symposium on Experimental Robotics, 2020"
 website: https://sites.google.com/view/diggerfinger/
-report: pdfs/DiggerFinger_ISER2020_fullpaper_final_v15Dec2020.pdf
+arxiv: https://arxiv.org/abs/2102.10230 
 slides: 
 ---
 
