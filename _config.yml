@@ -24,7 +24,7 @@ footer-links:
   flickr:
   github: nro-bot
   instagram: 
-  linkedin: nrobot
+  linkedin: nrobot # this doesn't do anything -- I hardcoded it into the _layouts/default.html
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
